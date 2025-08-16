@@ -4,7 +4,7 @@ API para gestionar propiedades inmobiliarias (EE. UU.).
 Arquitectura limpia con DDD, CQRS (MediatR), EF Core 8 (SQL Server), versionado y JWT.
 Incluye tests unitarios (NUnit + FluentAssertions + Moq + EFCore.Sqlite in-memory).
 
-⚙️ Stack
+## ⚙️ Stack
 
 .NET 8
 
@@ -24,7 +24,7 @@ NUnit · FluentAssertions · Moq (tests)
 
 NLog/Console (logs mínimos)
 
-🏗️ Arquitectura
+## 🏗️ Arquitectura
 
 Clean Architecture + DDD
 
@@ -109,7 +109,7 @@ Million-Technical-Test/
 
 
 
-Restricciones clave (EF Core)
+## Restricciones clave (EF Core)
 
 Property.CodeInternal único global (índice único).
 
@@ -119,7 +119,7 @@ Owned types: Address y Money mapeados a columnas planas.
 
 Borrado en cascada para Property.Images y Property.Traces.
 
-🚀 Puesta en marcha
+## 🚀 Puesta en marcha
 1. Requisitos
 
 .NET 8 SDK
@@ -163,14 +163,14 @@ dotnet run --project src/Million.WebApi
 
 Abrir Swagger: https://localhost:7224/swagger
 
-🔐 Seguridad (JWT)
+## 🔐 Seguridad (JWT)
 
 Todos los endpoints requieren Bearer token, salvo GET /api/v1/properties (anónimo).
 
 En Swagger usa Authorize y pega solo el TOKEN.
 
 
-🧾 Endpoints (v1)
+## 🧾 Endpoints (v1)
 Properties
 
 GET /api/v1/properties — anónimo, filtros y paginación
@@ -227,7 +227,7 @@ OwnerDTO incluye: PropertiesCount y Properties[] (Id, Name, CodeInternal).
 
 Relación: Owner 1..N Property (FK Property.OwnerId).
 
-🧠 Manejo de errores (ProblemDetails)
+## 🧠 Manejo de errores (ProblemDetails)
 
 En PropertiesController (y el middleware global) se mapean códigos de dominio a HTTP:
 
@@ -249,7 +249,7 @@ Límite por request: 5 MB
 
 Probar en Swagger: seleccionar multipart/form-data, campo File, Enabled=true.
 
-📈 Performance y decisiones
+## 📈 Performance y decisiones
 
 AsNoTracking en queries.
 
@@ -261,7 +261,7 @@ Paginación + orden dinámico.
 
 Backing fields (UsePropertyAccessMode(Field)) para colecciones.
 
-✅ Unit Tests
+## ✅ Unit Tests
 
 Proyectos y alcance
 
@@ -297,20 +297,20 @@ Filtra/ordena/pagina y proyecta a DTO (incluye Images y Traces).
 
 Cómo ejecutarlos
 
-# ejecución normal
+# Ejecución normal
 dotnet test -c Release
 
-# con reporte TRX
+# Con reporte TRX
 dotnet test -c Release --logger "trx;LogFileName=TestResults.trx"
 
-# con cobertura (Coverlet)
+# Con cobertura (Coverlet)
 dotnet test -c Release /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
 
 
 Resultado esperado
 10/10 pruebas en verde.
 
-🔎 Swagger: ejemplos de creación
+## 🔎 Swagger: ejemplos de creación
 //1. NYC, USD, Owner 1
 { "name":"Downtown Flat","street":"1 Main St","city":"New York","state":"NY","zip":"10001",
   "price":450000,"currency":"USD","codeInternal":"NYC-DW-001","year":2010,"rooms":2,
@@ -330,7 +330,7 @@ Resultado esperado
 Nota: CodeInternal es único. Si se repite, el API devuelve 409 con detalle.
 
 
-✍️ Notas finales
+## ✍️ Notas finales
 
 El Dominio permanece libre de frameworks, lo que permite pruebas rápidas y confiables.
 
