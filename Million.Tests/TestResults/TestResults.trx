@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="533881b0-de4a-4661-b0c9-d7a705b86ad4" name="stivb@JONATHAN_BORDA 2025-08-15 23:50:55" runUser="JONATHAN_BORDA\stivb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-15T23:50:55.7647200-05:00" queuing="2025-08-15T23:50:55.7647203-05:00" start="2025-08-15T23:50:54.9617326-05:00" finish="2025-08-15T23:50:56.7974140-05:00" />
+  <TestSettings name="default" id="c46290a4-e082-4d3b-b1fd-80540d742960">
+    <Deployment runDeploymentRoot="stivb_JONATHAN_BORDA_2025-08-15_23_50_55" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="34902ed6-d2f0-4a5a-81d4-cead7009ed26" testId="c6628dfd-1b0d-6fc9-8fae-0a0ea6ecd2dd" testName="ListAsync_filters_and_projects_to_dto" computerName="JONATHAN_BORDA" duration="00:00:01.0454530" startTime="2025-08-15T23:50:55.6929479-05:00" endTime="2025-08-15T23:50:56.7384005-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34902ed6-d2f0-4a5a-81d4-cead7009ed26" />
+    <UnitTestResult executionId="b4f7106f-cb62-4e5d-bafa-59310dba64b5" testId="1001a6d5-45d5-2dad-2c70-ff4886da7cc7" testName="Money_rejects_non_positive_or_bad_currency" computerName="JONATHAN_BORDA" duration="00:00:00.0004060" startTime="2025-08-15T23:50:55.6909989-05:00" endTime="2025-08-15T23:50:55.6914044-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4f7106f-cb62-4e5d-bafa-59310dba64b5" />
+    <UnitTestResult executionId="19b22731-f1be-4562-8649-f9ea643815d3" testId="ae45c570-067f-f54c-ce76-984983af0cbd" testName="Returns_conflict_when_codeinternal_is_duplicated" computerName="JONATHAN_BORDA" duration="00:00:00.0032830" startTime="2025-08-15T23:50:55.6783230-05:00" endTime="2025-08-15T23:50:55.6816056-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19b22731-f1be-4562-8649-f9ea643815d3" />
+    <UnitTestResult executionId="93972bc8-9c65-48d3-96dc-0637f94ee404" testId="b27d0024-c655-2709-5b08-e5a6de6ed99f" testName="AutoMapper_profile_should_be_valid" computerName="JONATHAN_BORDA" duration="00:00:00.0038320" startTime="2025-08-15T23:50:55.6843144-05:00" endTime="2025-08-15T23:50:55.6881465-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93972bc8-9c65-48d3-96dc-0637f94ee404" />
+    <UnitTestResult executionId="7663dd50-e03b-4902-aa7a-b3ff20bd4541" testId="86a7880c-4f0b-b3bd-f180-6cb9a515e4db" testName="Returns_not_found_when_owner_is_missing" computerName="JONATHAN_BORDA" duration="00:00:00.0025670" startTime="2025-08-15T23:50:55.6816243-05:00" endTime="2025-08-15T23:50:55.6841911-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7663dd50-e03b-4902-aa7a-b3ff20bd4541" />
+    <UnitTestResult executionId="1bb798b5-1e65-4f73-8bde-29acfcb9b922" testId="5b8f2463-201d-0e83-4e24-9754be794d9d" testName="Creates_property_ok" computerName="JONATHAN_BORDA" duration="00:00:00.0157969" startTime="2025-08-15T23:50:55.6625044-05:00" endTime="2025-08-15T23:50:55.6783011-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bb798b5-1e65-4f73-8bde-29acfcb9b922" />
+    <UnitTestResult executionId="12cbebe8-47db-47ed-b358-3fd072eabe7d" testId="5d362d1f-5f7c-5671-28ab-9f681b119f59" testName="Updates_price_and_saves" computerName="JONATHAN_BORDA" duration="00:00:00.0282230" startTime="2025-08-15T23:50:55.6324805-05:00" endTime="2025-08-15T23:50:55.6607036-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12cbebe8-47db-47ed-b358-3fd072eabe7d" />
+    <UnitTestResult executionId="59fa5904-87b9-4e4c-b55d-e9f34ca06e10" testId="1141362d-f641-3049-270b-29bd7d160f1f" testName="ChangePrice_updates_price_and_adds_trace" computerName="JONATHAN_BORDA" duration="00:00:00.0005010" startTime="2025-08-15T23:50:55.6882606-05:00" endTime="2025-08-15T23:50:55.6887620-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59fa5904-87b9-4e4c-b55d-e9f34ca06e10" />
+    <UnitTestResult executionId="2179b8fe-313e-4747-9c25-283fb9d45333" testId="06174d6a-7c61-2f9f-0ea7-2518c582baa4" testName="Returns_not_found_when_property_not_exists" computerName="JONATHAN_BORDA" duration="00:00:00.0665530" startTime="2025-08-15T23:50:55.5646305-05:00" endTime="2025-08-15T23:50:55.6311168-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2179b8fe-313e-4747-9c25-283fb9d45333">
+      <Output>
+        <StdOut>Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="40e9ba42-1745-45b3-91c3-ca04976298c5" testId="e1410bfc-0784-04e1-828a-6544d080d715" testName="Address_rejects_blank_fields" computerName="JONATHAN_BORDA" duration="00:00:00.0021419" startTime="2025-08-15T23:50:55.6888377-05:00" endTime="2025-08-15T23:50:55.6909798-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40e9ba42-1745-45b3-91c3-ca04976298c5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ChangePrice_updates_price_and_adds_trace" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="1141362d-f641-3049-270b-29bd7d160f1f">
+      <Execution id="59fa5904-87b9-4e4c-b55d-e9f34ca06e10" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Domain.PropertyAggregateTests" name="ChangePrice_updates_price_and_adds_trace" />
+    </UnitTest>
+    <UnitTest name="Returns_conflict_when_codeinternal_is_duplicated" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="ae45c570-067f-f54c-ce76-984983af0cbd">
+      <Execution id="19b22731-f1be-4562-8649-f9ea643815d3" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Application.Handlers.CreatePropertyHandlerTests" name="Returns_conflict_when_codeinternal_is_duplicated" />
+    </UnitTest>
+    <UnitTest name="Money_rejects_non_positive_or_bad_currency" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="1001a6d5-45d5-2dad-2c70-ff4886da7cc7">
+      <Execution id="b4f7106f-cb62-4e5d-bafa-59310dba64b5" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Domain.ValueObjectsTests" name="Money_rejects_non_positive_or_bad_currency" />
+    </UnitTest>
+    <UnitTest name="Returns_not_found_when_property_not_exists" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="06174d6a-7c61-2f9f-0ea7-2518c582baa4">
+      <Execution id="2179b8fe-313e-4747-9c25-283fb9d45333" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Application.Handlers.ChangePropertyPriceHandlerTests" name="Returns_not_found_when_property_not_exists" />
+    </UnitTest>
+    <UnitTest name="ListAsync_filters_and_projects_to_dto" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="c6628dfd-1b0d-6fc9-8fae-0a0ea6ecd2dd">
+      <Execution id="34902ed6-d2f0-4a5a-81d4-cead7009ed26" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Infrastructure.PropertyReadRepositoryTests" name="ListAsync_filters_and_projects_to_dto" />
+    </UnitTest>
+    <UnitTest name="AutoMapper_profile_should_be_valid" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="b27d0024-c655-2709-5b08-e5a6de6ed99f">
+      <Execution id="93972bc8-9c65-48d3-96dc-0637f94ee404" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Application.Mapping.MappingProfileTests" name="AutoMapper_profile_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Returns_not_found_when_owner_is_missing" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="86a7880c-4f0b-b3bd-f180-6cb9a515e4db">
+      <Execution id="7663dd50-e03b-4902-aa7a-b3ff20bd4541" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Application.Handlers.CreatePropertyHandlerTests" name="Returns_not_found_when_owner_is_missing" />
+    </UnitTest>
+    <UnitTest name="Address_rejects_blank_fields" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="e1410bfc-0784-04e1-828a-6544d080d715">
+      <Execution id="40e9ba42-1745-45b3-91c3-ca04976298c5" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Domain.ValueObjectsTests" name="Address_rejects_blank_fields" />
+    </UnitTest>
+    <UnitTest name="Creates_property_ok" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="5b8f2463-201d-0e83-4e24-9754be794d9d">
+      <Execution id="1bb798b5-1e65-4f73-8bde-29acfcb9b922" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Application.Handlers.CreatePropertyHandlerTests" name="Creates_property_ok" />
+    </UnitTest>
+    <UnitTest name="Updates_price_and_saves" storage="d:\documentos\empresas\million\million-technical-test\million.tests\bin\release\net8.0\million.tests.dll" id="5d362d1f-5f7c-5671-28ab-9f681b119f59">
+      <Execution id="12cbebe8-47db-47ed-b358-3fd072eabe7d" />
+      <TestMethod codeBase="D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Million.Tests.Application.Handlers.ChangePropertyPriceHandlerTests" name="Updates_price_and_saves" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c6628dfd-1b0d-6fc9-8fae-0a0ea6ecd2dd" executionId="34902ed6-d2f0-4a5a-81d4-cead7009ed26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1001a6d5-45d5-2dad-2c70-ff4886da7cc7" executionId="b4f7106f-cb62-4e5d-bafa-59310dba64b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae45c570-067f-f54c-ce76-984983af0cbd" executionId="19b22731-f1be-4562-8649-f9ea643815d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b27d0024-c655-2709-5b08-e5a6de6ed99f" executionId="93972bc8-9c65-48d3-96dc-0637f94ee404" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86a7880c-4f0b-b3bd-f180-6cb9a515e4db" executionId="7663dd50-e03b-4902-aa7a-b3ff20bd4541" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b8f2463-201d-0e83-4e24-9754be794d9d" executionId="1bb798b5-1e65-4f73-8bde-29acfcb9b922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d362d1f-5f7c-5671-28ab-9f681b119f59" executionId="12cbebe8-47db-47ed-b358-3fd072eabe7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1141362d-f641-3049-270b-29bd7d160f1f" executionId="59fa5904-87b9-4e4c-b55d-e9f34ca06e10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06174d6a-7c61-2f9f-0ea7-2518c582baa4" executionId="2179b8fe-313e-4747-9c25-283fb9d45333" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1410bfc-0784-04e1-828a-6544d080d715" executionId="40e9ba42-1745-45b3-91c3-ca04976298c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados sin formato de lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in D:\Documentos\Empresas\MILLION\Million-Technical-Test\Million.Tests\bin\Release\net8.0\Million.Tests.dll&#xD;
+   NUnit3TestExecutor discovered 10 of 10 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="JONATHAN_BORDA" outcome="Warning" timestamp="2025-08-15T23:50:55.6481263-05:00">
+        <Text>     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
