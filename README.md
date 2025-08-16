@@ -50,51 +50,63 @@ Value Objects inmutables: Address, Money.
 
 Evento de dominio: PriceChangedDomainEvent.
 
-📂 Estructura de solución
+## 📁 Estructura de la solución
+
+<details><summary>Ver estructura</summary>
+
+```text
 Million-Technical-Test/
 ├─ src/
 │  ├─ Million.Domain/
-│  │  ├─ Abstractions/ (Entity, AggregateRoot, IDomainEvent)
-│  │  ├─ Common/ (Guard, DomainException)
-│  │  ├─ Events/ (PriceChangedDomainEvent.cs)
-│  │  ├─ Owners/ (Owner.cs)
+│  │  ├─ Abstractions/                (Entity, AggregateRoot, IDomainEvent)
+│  │  ├─ Common/                      (Guard, DomainException)
+│  │  ├─ Events/                      (PriceChangedDomainEvent.cs)
+│  │  ├─ Owners/                      (Owner.cs)
 │  │  └─ Properties/
-│  │     ├─ Property, PropertyImage, PropertyTrace
-│  │     └─ ValueObjects/ (Address, Money)
+│  │     ├─ Property.cs, PropertyImage.cs, PropertyTrace.cs
+│  │     └─ ValueObjects/             (Address.cs, Money.cs)
 │  ├─ Million.Application/
 │  │  ├─ DependencyInjection.cs
-│  │  ├─ Common/ (Result, PagedList)
+│  │  ├─ Common/                      (Result, PagedList)
 │  │  ├─ Abstractions/
-│  │  │  └─ Persistence/ (IRepository, IUnitOfWork, IPropertyReadRepository, IOwnerReadRepository)
-│  │  ├─ DTOs/ (PropertyDTO, PropertyListItemDTO, PropertyImageItemDTO, PropertyTraceItemDTO, OwnerDTO, OwnerPropertyItemDTO)
-│  │  ├─ Mapping/ (MappingProfile)
-│  │  ├─ Behaviors/ (ValidationBehavior)
+│  │  │  └─ Persistence/              (IRepository, IUnitOfWork, IPropertyReadRepository, IOwnerReadRepository)
+│  │  ├─ DTOs/                        (PropertyDTO, PropertyListItemDTO, PropertyImageItemDTO, PropertyTraceItemDTO,
+│  │  │                                 OwnerDTO, OwnerPropertyItemDTO)
+│  │  ├─ Mapping/                     (MappingProfile.cs)
+│  │  ├─ Behaviors/                   (ValidationBehavior.cs)
 │  │  └─ Properties/
-│  │     ├─ Commands/ (CreateProperty, AddPropertyImage, ChangePropertyPrice, UpdateProperty)
-│  │     └─ Queries/ (ListProperties)
+│  │     ├─ Commands/                 (CreateProperty, AddPropertyImage, ChangePropertyPrice, UpdateProperty)
+│  │     └─ Queries/                  (ListProperties)
 │  └─ Million.Infrastructure/
 │     ├─ DependencyInjection.cs
 │     └─ Persistence/
 │        ├─ MillionDbContext.cs
-│        ├─ Configurations/ (Owner, Property, PropertyImage, PropertyTrace)
+│        ├─ Configurations/           (Owner, Property, PropertyImage, PropertyTrace)
 │        └─ Repositories/
 │           ├─ Repository.cs, UnitOfWork.cs
-│           └─ PropertyReadRepository.cs  (read model con AutoMapper.ProjectTo)
+│           └─ PropertyReadRepository.cs   (read model con AutoMapper.ProjectTo)
 │
 ├─ src/Million.WebApi/
-│  ├─ Program.cs (JWT, Swagger, versionado, middlewares)
+│  ├─ Program.cs                      (JWT, Swagger, versionado, middlewares)
 │  ├─ Controllers/
 │  │  ├─ PropertiesController.cs
 │  │  └─ OwnersController.cs
-│  ├─ Contracts/Requests … Contracts/Responses
-│  ├─ Middleware/ErrorHandlingMiddleware.cs
-│  └─ Services/Images/FileSystemImageStorage.cs (wwwroot/images)
+│  ├─ Contracts/
+│  │  ├─ Requests/…                   ┆
+│  │  └─ Responses/…
+│  ├─ Middleware/                     (ErrorHandlingMiddleware.cs)
+│  └─ Services/Images/                (FileSystemImageStorage.cs → wwwroot/images)
 │
 └─ tests/Million.Tests/
-   ├─ Domain/PropertyAggregateTests.cs
-   ├─ Application/Handlers/ (CreatePropertyHandlerTests, ChangePropertyPriceHandlerTests)
-   ├─ Application/Mapping/MappingProfileTests.cs
-   └─ Infrastructure/PropertyReadRepositoryTests.cs (Sqlite in-memory)
+   ├─ Domain/                         (PropertyAggregateTests.cs)
+   ├─ Application/
+   │  ├─ Handlers/                    (CreatePropertyHandlerTests, ChangePropertyPriceHandlerTests)
+   │  └─ Mapping/                     (MappingProfileTests.cs)
+   └─ Infrastructure/                 (PropertyReadRepositoryTests.cs - Sqlite in-memory)
+```
+</details>
+
+
 
 
 Restricciones clave (EF Core)
